@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="productNameItemDimen">25sp</dimen>
+    <dimen name="textItemDimen">20sp</dimen>
+    <dimen name="marginComponentsDimen">15dp</dimen>
+    <dimen name="editQuantityButtonDimen">50dp</dimen>
+</resources>

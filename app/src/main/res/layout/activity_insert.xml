@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginComponentsDimen"
+            android:layout_marginRight="@dimen/marginComponentsDimen"
+            android:layout_marginTop="@dimen/marginComponentsDimen"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/productNameTexViewInsertItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/productNameText"
+                android:textSize="@dimen/productNameItemDimen" />
+
+            <EditText
+                android:id="@+id/productNameEditTextInsertItemValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="@dimen/productNameItemDimen" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginComponentsDimen"
+            android:layout_marginRight="@dimen/marginComponentsDimen"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/priceTextViewInsertItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/priceText"
+                android:textSize="@dimen/textItemDimen" />
+
+            <EditText
+                android:id="@+id/priceEditTextInsertItemValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="@dimen/textItemDimen" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginComponentsDimen"
+            android:layout_marginRight="@dimen/marginComponentsDimen"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/quantityTextViewInsertItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/quantityText"
+                android:textSize="@dimen/textItemDimen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decreaseQuantityButtonInsert"
+                    android:layout_width="@dimen/editQuantityButtonDimen"
+                    android:layout_height="@dimen/editQuantityButtonDimen"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/decreaseButtonText" />
+
+                <TextView
+                    android:id="@+id/quantityTextViewInsertItemValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/marginComponentsDimen"
+                    android:layout_marginRight="@dimen/marginComponentsDimen"
+                    android:text="0"
+                    android:textSize="@dimen/textItemDimen" />
+
+                <Button
+                    android:id="@+id/increaseQuantityButtonInsert"
+                    android:layout_width="@dimen/editQuantityButtonDimen"
+                    android:layout_height="@dimen/editQuantityButtonDimen"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/increaseButtonText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginComponentsDimen"
+            android:layout_marginRight="@dimen/marginComponentsDimen"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/supplierNameTextViewInsertItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/supplierNameText"
+                android:textSize="@dimen/textItemDimen" />
+
+            <EditText
+                android:id="@+id/supplierNameEditTextInsertItemValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="@dimen/textItemDimen" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginComponentsDimen"
+            android:layout_marginRight="@dimen/marginComponentsDimen"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/supplierPhoneNumberTextViewInsertItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/supplierPhoneNumberText"
+                android:textSize="@dimen/textItemDimen" />
+
+            <EditText
+                android:id="@+id/supplierPhoneNumberEditTextInsertItemValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="@dimen/textItemDimen" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

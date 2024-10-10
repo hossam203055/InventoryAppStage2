@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="messageText">The database is empty, you can add a product clicking Insert from menu. You should add Product Name, Price, Quantity, Supplier Name and Supplier Phone Number</string>
+    <string name="productNameText">Product Name: </string>
+    <string name="priceText">Price: </string>
+    <string name="quantityText">Quantity: </string>
+    <string name="supplierNameText">Supplier Name</string>
+    <string name="supplierPhoneNumberText">Supplier Phone Number</string>
+    <string name="showDetailsText">Show Details and Update</string>
+    <string name="callSupplierText">Call Supplier</string>
+    <string name="saleText">Sale</string>
+    <string name="soldText">Sold</string>
+    <string name="increaseButtonText">+</string>
+    <string name="decreaseButtonText">-</string>
+    <string name="soldProductMessage">The product is sold</string>
+    <string name="confirmDeleteMessage">Delete this product ?</string>
+    <string name="yesAnswer">Yes</string>
+    <string name="noAnswer">No</string>
+    <string name="saveItemMenu">Save</string>
+    <string name="deleteItemMenu">Delete</string>
+    <string name="insertItemMenu">Insert</string>
+    <string name="insertRequestMessage">Sorry, you should enter a valid data</string>
+    <string name="insertActivity">Insert Product</string>
+    <string name="editActivity">Update Product</string>
+    <string name="decreaseQuantityOver0Message">You can\'t decrease over 0</string>
+</resources>

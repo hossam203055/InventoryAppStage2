@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginComponentsDimen"
+        android:layout_marginRight="@dimen/marginComponentsDimen"
+        android:layout_marginTop="@dimen/marginComponentsDimen"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/productNameTexViewItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/marginComponentsDimen"
+            android:layout_weight="1"
+            android:text="@string/productNameText"
+            android:textSize="@dimen/productNameItemDimen" />
+
+        <TextView
+            android:id="@+id/productNameTexViewItemValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginComponentsDimen"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="@dimen/productNameItemDimen" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginComponentsDimen"
+        android:layout_marginRight="@dimen/marginComponentsDimen"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/priceTextViewItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/marginComponentsDimen"
+            android:layout_weight="1"
+            android:text="@string/priceText"
+            android:textSize="@dimen/textItemDimen" />
+
+        <TextView
+            android:id="@+id/priceTextViewItemValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginComponentsDimen"
+            android:layout_weight="1"
+            android:textSize="@dimen/textItemDimen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginComponentsDimen"
+        android:layout_marginRight="@dimen/marginComponentsDimen"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/quantityTextViewItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/marginComponentsDimen"
+            android:layout_weight="1"
+            android:text="@string/quantityText"
+            android:textSize="@dimen/textItemDimen" />
+
+        <TextView
+            android:id="@+id/quantityTextViewItemValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginComponentsDimen"
+            android:layout_weight="1"
+            android:textSize="@dimen/textItemDimen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginComponentsDimen"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/showDetailsButtonItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/marginComponentsDimen"
+            android:layout_weight="1"
+            android:text="@string/showDetailsText"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/salaButtonItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginComponentsDimen"
+            android:layout_weight="1"
+            android:text="@string/saleText"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/callSupplierButtonItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginComponentsDimen"
+        android:layout_marginRight="@dimen/marginComponentsDimen"
+        android:text="@string/callSupplierText"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
